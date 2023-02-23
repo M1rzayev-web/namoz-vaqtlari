@@ -7,7 +7,6 @@ function getPraytime(url) {
     fetch(url)
         .then((res) => res.json())
         .then((data) => {
-            console.log(data);
             let displeymenu = data.map((item) => {
                 return `<article>
             <h2 class="kun">Oyning ${item.day}-kuni</h2>
@@ -37,6 +36,5 @@ select.addEventListener("change", function (e) {
     let url = `https://islomapi.uz/api/monthly?region=${e.target.value}&month=${
     month + 1
   }`;
-    console.log(url);
     getPraytime(url);
 });
