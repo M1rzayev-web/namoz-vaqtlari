@@ -1,0 +1,43 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.tanlash{
+    width: 200px;
+    top: 0%;
+    height: 50px;
+    font-size: 25px;
+}
+.vaqt_list{
+    width: 100%;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: space-between; */
+}
+.korinish{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+article{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.oy{
+    width: 15%;
+}
+.hafta{
+    width: 20%;
+}
+.kun{
+    width: 15%;
+}
+.region{
+    width: 15%;
+}
+.times{
+    width: 15%;
+}
